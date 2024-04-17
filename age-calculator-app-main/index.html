@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Group 2 Project - Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+   
+    <form id="ageCalculatorForm">
+      <div><label>DAY</label>
+        <input type="number" id="day" placeholder="DD" min="1" max="31" required>
+        <label>MONTH</label>
+        <input type="number" id="month" placeholder="MM" min="1" max="12" required>
+        <label>YEAR</label>
+        <input type="number" id="year" placeholder="YYYY" min="1900" max="2099" required></div>
+       <hr><button type="submit"><img src="assets/images/icon-arrow.svg"></button>
+    </form>
+    <div id="result">
+       
+        <p><span id="years">- -</span> years</p>
+        <p><span id="months">- -</span> months</p>
+        <p><span id="days">- -</span> days</p>
+    </div>
+</div>
+<script src="script.js"></script>
+  <!-- Project credits -->
+  <footer>
+    <div class="attribution">
+      Challenge prepared by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Eren Yamic</a>.
+    </div>
+  </footer>
+</body>
+</html>
