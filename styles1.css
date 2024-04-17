@@ -1,0 +1,42 @@
+css
+
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+  
+  
+}
+
+.container {
+  background-color: #9a3b99;
+  padding: 20px;
+  border-radius: 43px;
+  width: 300px;
+  max-width: 90%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+}
