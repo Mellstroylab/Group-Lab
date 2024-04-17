@@ -1,151 +1,158 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url("images/bg-desktop.svg");
-    background-color: #624E9A;
-    background-repeat: no-repeat;
-        background-size: cover;
+  background-image: url("images/bg-desktop.svg");
+  background-color: #624e9a;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logo {
-    display: block;
-    margin: 20px;
+  display: block;
+  margin: 20px;
 }
 
 .div1 {
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
 }
 
 .content1 {
-    font-size: 20px;
-    color: white;
-    margin: 50px;
-    font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: 50px;
+  font-family: sans-serif;
 }
 
 .span1 {
-    font-weight: 300;
-    font-size: 40px;
-    display: block;
-    margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 25px;
 }
 
-#btn1 {
-    padding: 15px;
-    border-radius: 30px;
-    display: block;
-    margin-top: 15px;
-    width: 175px;
-    color: #624E9A;
-    border: none;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+button {
+  background-color: #e980e7;
+  border: none;
+  color: white;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 24px;
 }
-
-#btn1:hover {
-    background-color: #EE82EE;
-    cursor: pointer;
-    color: white;
-    transition: .5s;
+.transformation {
+  background-color: white;
+  color: #664cb1;
+  border: 2px solid #664cb1;
+}
+.transformation:hover {
+  background-color: #e980e7;
+  color: white;
+}
+.shadow:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
 }
 
 #fdiv {
-    float: right;
-    margin: 20px;
+  float: right;
+  margin: 20px;
 }
 
 #fdiv > i {
-    border: 1px solid white;
-    border-radius: 100%;
-    padding: 10px;
-    margin: 5px;
-    width: 17px;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 5px;
+  width: 17px;
 }
 
 #fdiv > i:hover {
-    cursor: pointer;
-    color: #EE82EE;
-    transition: .5s;
-    border-color: #EE82EE;
+  cursor: pointer;
+  color: #ee82ee;
+  transition: 0.5s;
+  border-color: #ee82ee;
 }
 
 @media (max-width: 1024px) {
-    body{
-        background-image: url("images/bg-mobile.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #logo {
-        margin: 10px;
-    }
+  body {
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #logo {
+    margin: 10px;
+  }
 
-    .div1 {
-        flex-direction: column;
-        padding: 20px;
-        
-    }
+  .div1 {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-    .content1 {
-        margin: 30px;
-        font-size: 18px;
-        text-align: center;
-    }
+  .content1 {
+    margin: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
 
-    #btn1 {
-        width: 150px;
-        padding: 10px;
-       margin: auto;
-        
-    }
+  .button {
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+  }
 
-    #fdiv {
-        float: none;
-        text-align: center;
-        margin: 10px;
-    }
+  #fdiv {
+    float: none;
+    text-align: center;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 768px) {
-    body{
-        background-image: url("images/bg-mobile.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  body {
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    #logo {
-        margin: 5px;
-    }
+  #logo {
+    margin: 5px;
+  }
 
-    .div1 {
-        padding: 10px;
-    }
+  .div1 {
+    padding: 10px;
+  }
 
-    .content1 {
-        margin: 20px;
-        font-size: 16px;
-        text-align: center;
-    }
+  .content1 {
+    margin: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
 
-    #btn1 {
-        width: 120px;
-        padding: 8px;
-        margin: auto;
-        
-    }
+  .button {
+    width: 120px;
+    padding: 8px;
+    margin: auto;
+  }
 
-    #fdiv {
-        float: none;
-        text-align: center;
-        margin: 5px;
-    }
+  #fdiv {
+    float: none;
+    text-align: center;
+    margin: 5px;
+  }
 }
